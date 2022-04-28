@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Bypass Country Lock
-// @version 1.0.0
+// @version 1.0.1
 // @author green1052
 // @description 아카라이브의 "이 콘텐츠는 해당 국가에서 이용할 수 없습니다."를 우회 합니다.
 // @supportURL https://github.com/green1052/bypass-country-lock/issues
@@ -35,7 +35,7 @@
             responseType: "json",
             timeout: 10000,
             onload: (response) => {
-                const content = JSON.parse(response.responseText)?.content;
+                const content = response.response.content;
 
                 if (!content) return;
 
