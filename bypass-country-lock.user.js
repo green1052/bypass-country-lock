@@ -10,8 +10,7 @@
 // @noframes
 // @grant GM_xmlhttpRequest
 // @homepageURL https://github.com/green1052/bypass-country-lock
-// @downloadURL https://github.com/green1052/bypass-country-lock/raw/master/bypass-country-lock.user.js
-// @updateURL https://github.com/green1052/bypass-country-lock/raw/master/bypass-country-lock.user.js
+// @downloadURL https://raw.githubusercontent.com/green1052/bypass-country-lock/master/bypass-country-lock.user.js
 // @license GPLv3
 // ==/UserScript==
 
